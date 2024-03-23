@@ -11,6 +11,6 @@ COPY . .
 
 EXPOSE 8000
 
-SHELL [“/bin/bash”, “-c”, "/app/docker-entrypoint.sh"]
+RUN ["/bin/bash", "/app/docker-entrypoint.sh"]
 
 CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
