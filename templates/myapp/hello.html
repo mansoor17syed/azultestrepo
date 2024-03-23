@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style>
+        body {
+            text-align: center;
+        }
+ 
+        table {
+            margin: 0 auto;
+            height: 20vh;
+            width: 40vh;
+        }
+ 
+        h1 {
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>PROJECT BY MANSOOR FOR AZUL</h1>
+    <h2>TABLE TO SHOW CURRENCY DATA</h2>
+    <table border="1">
+        <caption>
+            Author Details
+        </caption>
+ 
+        <tr>
+            <th>COUNTRY_NAME</th>
+            <th>CURRENCY_CODE</th>
+            <th>COUNTRY_CURRENCY_VALUE</th>
+            <th>DATE_TIME_UPDATED</th>
+        </tr>
+
+    {% for item in query_results %}
+        <tr> 
+            <td>{{ item.country_name }}</td>
+            <td>{{ item.country_code }}</td>
+            <td>{{ item.country_currency_value }}</td>        
+            <td>{{ item.currency_update_time }}</td>        
+        </tr>
+    {% endfor %}
+</table>
+
+</body>
+</html>
