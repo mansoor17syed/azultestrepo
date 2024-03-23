@@ -18,7 +18,7 @@ And displays the rendered data in a HTML page. Every refesh of the page the data
 ## ABOUT THE AUTHOR
 NAME:- SYED MANSOOR     
 LINKEDIN_PROFILE:- http://linkedin.com/in/syed-mansoor17     
-PROJECT_GIT_LINK:- https://github.com/mansoor17syed/azultestrepo 
+PROJECT_GIT_LINK:- https://github.com/mansoor17syed/azultestrepo                                                                
 PROJECT_DOCKER_HUB_LINK:- https://hub.docker.com/repository/docker/mansoor1996/django-myproject-app
 
 ## WHAT DID I DO/APPROACH
@@ -42,7 +42,7 @@ PROJECT_DOCKER_HUB_LINK:- https://hub.docker.com/repository/docker/mansoor1996/d
 
 ## INTEGRATION OF PROMETHEUS
 1.I have also installed prometheus locally and integrated with the application.             
-2.I installed the prometheus package for django and made sure metrics are generated. 
+2.I installed the prometheus package for django and made sure metrics are generated.                                                                                             
 3.Prometheus integration with the application is captured and the file is attached. FILE_NAME - PROMETHEUS_MONITOR_STATUS_DJANGO.pdf      
 4.The target is also added in prometheus for django.Below is the conf
 
