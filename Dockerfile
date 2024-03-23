@@ -11,4 +11,6 @@ COPY . .
 
 EXPOSE 8000
 
-CMD ["python /app/manage.py makemigrations","python /app/manage.py migrate","python /app/manage.py runserver 0.0.0.0:8000"]
+SHELL [“/bin/bash”, “-c”, "/app/docker-entrypoint.sh"]
+
+CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
