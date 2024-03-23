@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+
+  web:
+    image: mansoor1996/django-myproject-app
+    container_name: django
+    ports:
+      - '8000:8000'
+    volumes:
+      - .:/app
