@@ -125,6 +125,11 @@ Run the Application using the docker compose file
 sudo docker-compose up
 ~~~
 
+Once the compose is up open browser and enter the below address.Acess development server at.
+
+~~~bash  
+http://127.0.0.1:8000/
+~~~
 ## SNAPS OF APPLICATION
 
 ![alt text](image-1.png)
