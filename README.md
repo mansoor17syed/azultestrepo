@@ -125,11 +125,17 @@ Run the Application using the docker compose file
 sudo docker-compose up
 ~~~
 
-Once the compose is up open browser and enter the below address.Acess development server at.
+Once the compose is up open browser and enter the below address.Access development server at.
 
 ~~~bash  
-http://127.0.0.1:8000/
+http://127.0.0.1:8000/myapp/
 ~~~
+Once the compose is up open browser and enter the below address.Access metrics server at.
+
+~~~bash  
+http://127.0.0.1:8000/metrics
+~~~
+
 ## SNAPS OF APPLICATION
 
 ![alt text](image-1.png)
