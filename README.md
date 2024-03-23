@@ -8,7 +8,7 @@ And displays the rendered data in a HTML page. Every refesh of the page the data
 
 # Table of contents  
 1. [ABOUT THE AUTHOR](#introduction)  
-2. [HOW DID I DEVELOP THE PROJECT:-](#paragraph1)  
+2. [HOW DID I DEVELOP THE PROJECT](#paragraph1)  
 3. [WHAT DID I INSTALL](#paragraph2)  
 3. [TESTING THE CODE](#paragraph2)  
 3. [HOW DID I USE DOCKER and GIT.](#paragraph2)  
